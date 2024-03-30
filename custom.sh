@@ -30,9 +30,11 @@ LORA_MODELS=(
     "https://civitai.com/api/download/models/154149?type=Model&format=SafeTensor"
     "https://civitai.com/api/download/models/177248?type=Model&format=SafeTensor"
     "https://civitai.com/api/download/models/142778"
+    "https://civitai.com/api/download/models/133465?type=Model&format=SafeTensor"
     "https://civitai.com/api/download/models/210686?type=Model&format=SafeTensor"
     "https://civitai.com/api/download/models/80755?type=Model&format=SafeTensor"
     "https://civitai.com/api/download/models/153787?type=Model&format=SafeTensor"
+    
 
 )
 
