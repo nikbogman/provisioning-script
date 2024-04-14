@@ -165,11 +165,6 @@ function provisioning_get_nodes() {
             printf "Downloading node: %s...\n" "${repo}"
             git clone "${repo}" "${path}" --recursive
             
-            if [["${dir}" == "ComfyUI_IPAdapter_plus"]] then 
-            cd "$path"
-                git checkout 1f38315efc3d236689f7cada5ed5ce1539db6773
-            fi
-
             if [[ -e $requirements ]]; then
                 micromamba -n comfyui run ${PIP_INSTALL} -r "${requirements}"
             fi
