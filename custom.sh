@@ -26,6 +26,7 @@ NODES=(
 
 CHECKPOINT_MODELS=(
     "https://huggingface.co/Yabo/SDXL_LoRA/resolve/main/dreamshaperXL_alpha2Xl10.safetensors"
+    "https://huggingface.co/misri/realismEngineSDXL_v30VAE/resolve/main/realismEngineSDXL_v30VAE.safetensors"
 )
 
 LORA_MODELS=(
